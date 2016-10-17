@@ -1,0 +1,8 @@
+package-as: SimpleObjectiveProgress
+
+externals:
+    Libs/LibStub:
+        url: svn://svn.wowace.com/wow/libstub/mainline/trunk
+        tag: latest
+    Libs/LibObjectiveProgress-1.0:
+        url: http://hg.curseforge.com/wow/libobjectiveprogress-1-0/mainline

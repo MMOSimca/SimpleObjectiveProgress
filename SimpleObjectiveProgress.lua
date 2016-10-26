@@ -28,7 +28,7 @@ local function SOP_Hook_OnTooltipSetUnit(self)
         local questTitle = C_TaskQuest.GetQuestInfoByQuestID(questID)
         for j = 1, self:NumLines() do
             if _G["GameTooltipTextLeft" .. j] and _G["GameTooltipTextLeft" .. j]:GetText() == questTitle then
-                _G["GameTooltipTextLeft" .. j]:SetText(_G["GameTooltipTextLeft" .. j]:GetText() .. " - " .. tostring(round(npcWeight, 2)) .. "%")
+                _G["GameTooltipTextLeft" .. j]:SetText(_G["GameTooltipTextLeft" .. j]:GetText() .. " - " .. tostring(math.floor((npcWeight * 100) + 0.5) / 100) .. "%")
             end
         end
     end

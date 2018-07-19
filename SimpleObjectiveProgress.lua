@@ -34,6 +34,5 @@ local function SOP_Hook_OnTooltipSetUnit(self)
     end
 end
 
-
 -- Set our hook function
 GameTooltip:HookScript("OnTooltipSetUnit", SOP_Hook_OnTooltipSetUnit)

@@ -37,4 +37,3 @@ end
 
 -- Set our hook function
 GameTooltip:HookScript("OnTooltipSetUnit", SOP_Hook_OnTooltipSetUnit)
-

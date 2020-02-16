@@ -25,7 +25,7 @@ local function SOP_Hook_OnTooltipSetUnit(self)
     if not weightsTable then return end
 
     for questID, npcWeight in next, weightsTable do
-        local questTitle = C_TaskQuest.IsActive(questID) and C_TaskQuest.GetQuestInfoByQuestID(questID) or C_QuestLog.GetQuestInfo(questID)
+        local questTitle = QuestUtils_GetQuestName(questID)
         for j = 1, self:NumLines() do
             if _G["GameTooltipTextLeft" .. j] and _G["GameTooltipTextLeft" .. j]:GetText() == questTitle then
                 _G["GameTooltipTextLeft" .. j]:SetText(_G["GameTooltipTextLeft" .. j]:GetText() .. " - " .. tostring(math.floor((npcWeight * 100) + 0.5) / 100) .. "%")

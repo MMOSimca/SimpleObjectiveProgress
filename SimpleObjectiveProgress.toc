@@ -1,4 +1,4 @@
-## Interface: 80300
+## Interface: 90002
 ## Title: SimpleObjectiveProgress
 ## Author: Simca
 ## Notes: SimpleObjectiveProgress is a basic addon designed to add NPC weight information for quest objectives to NPC tooltips.

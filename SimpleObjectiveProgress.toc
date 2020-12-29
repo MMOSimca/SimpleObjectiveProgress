@@ -5,6 +5,8 @@
 ## Version: @project-version@
 ## X-Date: @project-date-iso@
 ## X-License: BSD
+## X-Localizations: enUS
+## X-Curse-Project-ID: 102859
 
 libs.xml
 

@@ -6,5 +6,5 @@ externals:
         tag: latest
     Libs/LibObjectiveProgress-1.0:
         url: https://github.com/MMOSimca/LibObjectiveProgress-1.0.git
-		commit: HEAD
+        commit: HEAD
         curse-slug: libobjectiveprogress-1-0

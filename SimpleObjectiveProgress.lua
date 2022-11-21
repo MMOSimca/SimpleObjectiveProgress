@@ -36,4 +36,4 @@ end
 
 
 -- Set our hook function
-GameTooltip:HookScript("OnTooltipSetUnit", SOP_Hook_OnTooltipSetUnit)
+TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Unit, SOP_Hook_OnTooltipSetUnit)

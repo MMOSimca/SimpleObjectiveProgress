@@ -3,10 +3,8 @@ SimpleObjectiveProgress
 Developed by: Simca@Malfurion-US (MMOSimca)
 ]]--
 
-
 -- Localized function references
 local LOP = _G.LibStub("LibObjectiveProgress-1.0")
-
 
 -- OnTooltipSetUnit hook function
 local function SOP_Hook_OnTooltipSetUnit(self)
@@ -33,7 +31,6 @@ local function SOP_Hook_OnTooltipSetUnit(self)
         end
     end
 end
-
 
 -- Set our hook function
 TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Unit, SOP_Hook_OnTooltipSetUnit)
